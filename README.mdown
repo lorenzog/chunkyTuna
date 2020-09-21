@@ -1,3 +1,6 @@
+**AS SEEN ON THE LATEST [CISA/FBI report](https://us-cert.cisa.gov/ncas/alerts/aa20-259a)!!!11!1!** 
+...seems like Pioneer Kittens like Chunky Tuna... 
+
 # ChunkyTuna
 
 An evolved webshell user 'Chunked transfer encoding' HTTP providing:
@@ -38,7 +41,6 @@ Then, upload the webshell on the vulnerable server.
 Mode 'C': webshell *connects* to the target:
 
 	./chunkytuna.py http://$WEBSERVER:$WEBPORT/$PATH_TO_WEBSHELL -r 127.0.0.1:12345 -t $TARGET:$TARGETPORT C
-
 Where:
 
  * `$TARGET` and `$TARGETPORT` are the system in the same network as the webserver, e.g. 192.168.1.42:80
